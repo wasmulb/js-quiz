@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>JavaScript Quiz</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+        <h1>JavaScript Quiz</h1>
+        <h3>Put your JavaScript knowledge to the test!</h3>
+        <a id="highscores">View highscores</a>
+        </header>
+        <main>
+            <div class="quiz-card" id="main-page">
+                <button class="start-button" id="start-btn">Start Quiz</button>
+            </div>
+            <div class="question-style"id="q1"> </div>
+            <div class="question-style" id="q2"></div>
+            <div class="question-style" id="q3"></div>
+            <div class="question-style" id="q4"></div>
+            <div class="question-style" id="q5"></div>
+            <div class="question-style" id="result-screen"></div>
+            <div class="question-style" id="results" style="display: none;">
+                <h1>Please enter your initials</h1>
+                <input id="initials"/>
+                <button id="enter-initials">Submit</button>
+            <div class ="question-style" id="highscores" style="display: none;">
+                <h2>High Scores</h2>
+                <ul id="listOfHighscores"></ul>
+            </div>
+            </div>
+            <div id="high-scores"></div>
+            <div>
+                <h3 id="timer"></h3>
+            </div>
+        </main>
+        <footer>
+        <h3>Thanks for playing!</h3>
+        </footer>
+        <script src="./assets/script/script3.js"></script>
+    </body>
+</html>
